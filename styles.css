@@ -1,0 +1,817 @@
+* { 
+	margin:0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+
+.body {
+	font-family: 'Comic Neue', cursive;
+	background-image: url(recursos/venom.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header{
+/*background-color: #0094FFFF;*/
+/*background-image: url(recursos/header.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-image: url(recursos/dc.jpg);
+background-repeat: repeat; ;
+color: white;*/
+padding: 150px;
+/*background-image: url(recursos/header.jpg);*/
+background-image: url(recursos/body.jpg);
+background-size: cover;
+border: solid 4px black
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.nav{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+	position: relative;
+
+}
+
+.nav li{
+	border: solid 2px black;
+	color: white;
+	padding: 5px;
+	background-color: #A10;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.nav li:hover {
+	background-color: #004A7FFF;
+}
+
+.nav li ul{
+	position: absolute;
+	list-style: none;
+	display: none;
+	padding: 0px;
+	font-size: 0px;	
+}
+
+.nav li:hover ul{
+	display: block;
+	padding: 5px;
+	font-size: 15px;
+}
+
+
+header nav ul{
+	text-align: right;
+	margin-top: 40px;
+}
+
+header nav ul li {
+	display: inline;
+	margin-right: 2%;
+	color: white;
+}
+
+header nav ul li:hover{
+	color: #FF6A00FF;
+	cursor: pointer;
+}
+
+.intro {text-align: center;
+		border: solid 4px black;
+		margin-top: 50px;
+		background-size: cover;
+		overflow: hidden;
+		background-image: url(recursos/vader.jpg);
+		background-repeat: no-repeat;
+		color: white;
+		padding: 100px;
+}
+
+
+.intro p{
+	text-align: center;
+	padding: 5%;
+}
+
+/*.marvel {
+	background-image: url(recursos/marvelHeroes.jpg);
+	background-repeat: repeat;
+}*/
+
+
+.faccion {
+	text-align: center;
+	margin-top: 5%;
+	padding: 50px;
+	/*border: solid 4px black;*/
+	margin: 5% 30% 5%;;
+	background-image: url(recursos/marvel.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+/*685px es el breakpoint*/
+
+.heroes {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 1% 5%;
+	padding: 5% 10%;
+	background-image: url(recursos/marvelHeroes.jpg);
+	background-repeat: repeat;
+	border-radius: 2%;
+}
+
+.heroes div{
+	border: solid black 4px;
+	margin-bottom: 5px;
+	margin: 1%;
+	background-color: white ;
+}
+
+
+.heroes div img {
+	width: 200px;
+	height: 200px;
+}
+
+
+.heroes div h2 {
+	text-align: center;
+}
+
+.heroes h3{
+	text-align: center;
+}
+
+.heroes ul {
+	text-align: center;
+	list-style: none
+}
+
+.heroes button {
+	margin-left: 30%;
+	margin-top: 5% ;
+	margin-bottom: 5% ;
+}
+
+.heroes button:hover {
+	margin-left: 30%;
+	margin-top: 5% ;
+	margin-bottom: 5% ;
+	cursor: pointer;
+	background-color: #7F92FFFF;
+}
+
+.dcHeroes {
+	text-align: center;
+	margin-top: 5%;
+	padding: 75px;
+	/*border: solid 4px black;*/
+	margin: 5% 30% 5%;;
+	background-image: url(recursos/dc.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: 50%;;
+}
+
+
+.heroesb {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 1% 5%;
+	padding: 5% 10%;
+	background-image: url(recursos/dc.jpg);
+	background-repeat: repeat;
+	border-radius: 2%;
+}
+
+
+.heroesb div{
+	border: solid black 4px;
+	margin-bottom: 5px;
+	margin: 1%;
+	background-color: white ;
+}
+
+
+.heroesb div img {
+	width: 200px;
+	height: 200px;
+}
+
+
+.heroesb div h2 {
+	text-align: center;
+}
+
+.heroesb h3{
+	text-align: center;
+}
+
+.heroesb ul {
+	text-align: center;
+	list-style: none
+}
+
+.heroesb button {
+	margin-left: 30%;
+	margin-top: 5% ;
+	margin-bottom: 5% ;
+}
+
+.heroesb button:hover {
+	margin-left: 30%;
+	margin-top: 5% ;
+	margin-bottom: 5% ;
+	cursor: pointer;
+	background-color: #7F92FFFF
+}
+
+button {
+  transform: rotate(2deg);
+  margin:15px;
+  padding:2px 5px;
+  background:#A10;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+  color: white;
+}
+
+.leer div {
+	border: solid 1px white;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding: 1,5px;
+}
+
+.footer {
+	background-image: url(recursos/footer.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px;
+	color: white;
+	text-align: right;
+	margin-top: 100px;
+	width: 100%;
+}
+
+.datos div {
+	border-radius: 20px;
+	margin-right: 10px;
+	margin-left: 50px;
+	margin-bottom: 10px;
+	width: 108px;
+	height: 20px;
+}
+
+.datos div div {
+	border-radius: 20px;
+	border: none;
+	background-color: #FF6A00FF;
+	margin: 0px;
+	color: black;
+}
+
+.datos div div{
+	width: 0;
+	height: 12px;
+	-webkit-transition: 0.2s all linear;-o-transition: 0.2s all linear;transition: 0.2s all linear;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.StatSection {
+	color: white;
+	margin-right: 50px;
+	margin-left: 50px;
+	border-radius: 10px;
+	background-color: black;
+}
+
+
+.StatSection p{
+	padding: 40px;
+	text-align: center;
+}
+
+.listaStat {
+	text-align: center;
+	padding: 30px;
+}
+
+.mejores {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: 10px;
+	padding: 20px;
+}
+
+
+.mejores div button {
+	height: 40px;
+	width: 100px;
+	transform: none;
+  margin:15px;
+  padding:0 5px;
+  background:#A10;
+  border:1px solid #222;
+  box-shadow:none;
+  color: white;
+}
+
+.mejores div button:hover {
+	cursor: pointer;
+	background-color: #7F92FFFF;
+}
+
+.mejores div button ul{
+	display: flex;
+	/*flex-wrap: wrap;*/
+}
+
+.positionRelative{
+	position: relative;
+}
+
+.veloz {
+	position: relative;
+}
+
+.mejores div button ul li{
+	margin-left: 10px;
+	margin-right: 20px;
+	list-style: square;
+	position: absolute;
+}
+
+
+.irArriba{
+	margin-left: 85%;
+	margin-top: 30px;
+	margin-bottom: -50px !important;
+	border-radius: 10px;
+	padding: 5px !important;
+}
+
+.irArriba:hover{
+	cursor: pointer;
+	background-color: #7F92FFFF;
+}
+
+.ajax {
+  transform: rotate(2deg);
+  margin:5px;
+  padding:10px 5px;
+  background:#A10;
+  border:1px solid #222;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.ajax:hover{
+	cursor: pointer;
+	background-color: #7F92FFFF;
+}
+
+.pruebaFlex {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	overflow: hidden;
+	text-align: center;
+	;
+}
+
+
+.contenedorHeroeAleatorio{
+	flex-basis: 30%;
+	margin-bottom: 20px;
+	background-color: grey;
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 4px solid #7F0000FF;
+	padding-right: 40px;
+	padding-left: 40px
+}
+
+
+.contenedorHeroeAleatorio div img{
+	width: 150px;
+}
+
+.contenedorHeroeAleatoriob{
+	flex-basis: 30%;
+	margin-bottom: 20px;
+	background-color: grey;
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 4px solid #7F0000FF;
+	padding-right: 40px;
+	padding-left: 40px
+}
+
+.contenedorHeroeAleatoriob div img{
+	width: 150px;
+}
+
+
+.contenedorHeroeAleatorioc{
+	flex-basis: 30%;
+	margin-bottom: 20px;
+	background-color: grey;
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 4px solid #7F0000FF;
+	padding-right: 40px;
+	padding-left: 40px
+}
+
+
+.contenedorHeroeAleatorioc div img{
+	width: 150px;
+}
+
+.contenedorHeroeAleatoriod{
+	flex-basis: 30%;
+	margin-bottom: 20px;
+	background-color: grey;
+	color: black;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 4px solid #7F0000FF;
+	padding-right: 40px;
+	padding-left: 40px
+}
+
+.contenedorHeroeAleatoriod div img{
+	width: 150px;
+}
+
+.pruebaFlex div img{
+margin-top: 10px;
+border-radius: 50%;
+}
+
+.pruebaFlex div h3  {
+	margin-top: 10px;
+}
+
+.pruebaFlex div h4  {
+	margin-top: 10px;
+}
+
+.pruebaFlex div ul {
+	padding: 5px;
+}
+
+.pruebaFlex div ul li {
+	list-style: none;
+}
+
+
+.randomCharacter {
+	background-color: #000000FF;
+	color: white;
+	margin:  50px;
+	padding: 50px;
+	border-radius: 20px;
+}
+
+.StatSection p {
+	margin-left: 20px;
+}
+
+.character-page {
+	font-family: 'Comic Neue', cursive;
+	background-image: url(recursos/marvelHeroes.jpg);
+}
+.character-page .grid{
+	display: flex;
+	margin-left: -20px;
+	flex-wrap: wrap;
+}
+
+.character-page .grid__item{
+	padding-left: 20px;
+}
+
+.character-page .one-half{
+	width: 50%;
+}
+
+.character-page .image-container img{
+	max-width: 100%;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.content {
+	margin-left: -50%;
+	text-align: center;
+	margin-right: 25%;
+}
+
+
+.content ul li{
+	list-style: none;
+}
+
+
+
+.content h1 {
+	padding: 20px;
+}
+
+.content h2 {
+	padding: 15px;
+}
+
+.volver{
+	transform: rotate(2deg);
+  margin:40px;
+  margin-top: 60px;
+  padding: 10px 10px;
+  background:#ddd;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+  text-align: center;
+  margin-left: 90%;
+  text-decoration: none;
+ 	background-color: rgb(255, 106, 0);
+ 	border-radius: 10px;
+}
+
+.volver:hover{
+	cursor: pointer;
+	background-color: #7F92FFFF;
+}
+
+.volver a{
+	text-decoration: none;
+	color: black;
+}
+
+
+div button:hover{
+	cursor: pointer;
+	background-color: #7F92FFFF;
+}
+
+
+.mostPowerfull {
+  transform: none;
+  margin:5px;
+  padding:10px 5px;
+  background:#09F;
+  border:1px solid #222;
+  box-shadow:3px 3px 0 #222;
+  text-align: center;
+  border-radius: 5%;
+}
+
+.mostPowerfull:hover{
+	cursor: pointer;
+	background-color: #7F92FFFF;
+}
+
+.randomCharacterb {
+	background-color: #C0C0C0FF;
+	color: #000000FF;
+	margin:  50px;
+	padding: 50px;
+	border-radius: 20px;
+}
+
+.gridButons {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+}
+
+
+
+.gridCharacters{
+display: flex;
+justify-content: space-evenly;
+}
+
+.gridCharacters div{
+text-align: center;
+}
+
+
+
+.gridButonsb {
+	display: flex;
+	justify-content: center;
+}
+
+.yourHeroSeccion {
+	
+	background-color: #000000FF;
+	color: white;
+	margin:  50px;
+	padding: 50px;
+	border-radius: 20px
+}
+
+/*
+.user-info{
+	margin-left: 40%;
+}*/
+
+.selectYourCharacter {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-content: center;
+}
+
+.selectYourCharacter div {
+	align-content: center;
+	text-align: center;
+}
+
+.selectYourCharacter div ul {
+list-style: none;
+}
+
+
+.selectYourCharacter div img {
+	margin-left: -5%;
+}
+
+.user-input{
+	height: 40px;
+	border: solid black 1px;
+	margin: 20px;
+	padding: 10px;
+}
+
+
+.traerHeroe{
+  transform: none;
+  margin:20px;
+  padding:10px 20px;
+  background:#A10;
+  box-shadow:none;
+  color: white;
+}
+
+
+.traerHeroe: hover{
+	cursor: pointer;
+	background-color: #7F92FFFF;
+  transform: rotate(2deg);
+  margin:5px;
+  padding:10px 5px;
+  background:#A10;
+  border:1px solid #222;
+  text-align: center;
+  border-radius: 5%;
+}
+
+
+.lucha{
+	margin-left: 40%;
+	transform: none;
+  padding:10px 10px;
+  background:#A10;
+  border:1px solid #222;
+  text-align: center;
+  border-radius: 5%;
+  margin-top: 4% ;
+  width: 20%;
+}
+
+.lucha:hover{
+	cursor: pointer;
+	background-color: #7F92FFFF;
+}
+
+.character-page .image-container img {
+	margin-left: 100px;
+	border-radius: 0px;
+}
+ 
+ .heroListButton{
+ 	transform: none;
+  padding:10px 20px;
+  background:#09F;
+  box-shadow:none;
+  color: white;
+  border-radius: 5%;
+  box-shadow:3px 3px 0 #222;
+
+ }
+ .heroList {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-evenly;
+ 	margin-left: 10px;
+ 	margin-top: 10px;
+ 	margin-bottom: 10px;
+ } 
+
+.heroList li {
+	flex-basis: 15%;
+	margin-left: 10px;
+}
+
+
+.randomCharacterc {
+	background-color: #C0C0C0FF;
+	color: #000000FF;
+	margin:  50px;
+	padding: 50px;
+	border-radius: 20px;
+}
+
+
+.tituloLista {
+	display: flex;
+	justify-content: center;
+}
+
+
+.volverFlex{
+display: flex;
+justify-content: flex-end;
+
+}
+
+
+
+
+@media (max-width: 889px) {.content {margin-left: 5%; margin-right: 30%}}
+@media (max-width: 490px) {.content {margin-left: 5%; margin-right: 50px}}
+@media (max-width: 1005px){.gridCharacters img {width: 100px;}}
+@media (max-width: 842px) {.gridCharacters img {width: 100px;}}
+@media (max-width: 714px) {.gridCharacters {display:block;}}
+@media (max-width: 714px) {.gridCharacters img {width: 100%;}}
+@media (max-width: 714px) {.gridCharacters div {margin-top: 10%}}
+@media (max-width: 485px) {.gridButons {display:block;}}
+@media (max-width: 492px) {.gridCharacters div {padding: 1px; text-align: center;}}
+@media (max-width: 360PX) {.gridCharacters div {padding: 1px; text-align: center; font-size: 10px; width: 100%; margin-left:0px	}}
+@media (max-width: 280PX) {.gridCharacters img {display: none;}}
+@media (max-width: 280PX) {.gridCharacters button {margin-left: 1px; font-size: 10px;}}
+@media (max-width: 280PX) {.randomCharacter  {display: none}}
+@media (max-width: 280PX) {.randomCharacterb  {display: none}}
+@media (max-width: 492px) {.heroesb {border-radius: 0;}}
+@media (max-width: 625px) {.heroesb{background-image: none}}
+@media (max-width: 475px)	{.intro{padding: 20px}}
+@media (max-width: 400px) {.intro{margin-left:5px; margin-right:5px; font-size: 10px;/*width:140%*/}}
+/*@media (max-width: 400px) {header{margin-left:10%; margin-right:10%;width:140%}}*/
+@media (max-width: 262px) {.StatSection{display: none}}
+@media (max-width: 492px) {.heroes {border-radius: 0;}}
+@media (max-width: 625px) {.heroes{background-image: none}}
+@media (max-width: 900px) {.irArriba {bottom: 100px; right: 20px; position: fixed;opacity: 0.5;}}
+/*@media (max-width: 400px) {.footer {padding-right: 100%; width: 150%}}
+@media (max-width: 354px) {.footer {padding-right: 100%; width: 180%}}*/
+/*@media (max-width: 999px) {.user-info {margin-left: 35%;}}
+@media (max-width: 700px) {.user-info {margin-left: 30%;}}
+@media (max-width: 500px) {.user-info {margin-left: 20%;}}
+@media (max-width: 420px) {.user-info {margin-left: 10%;}}
+@media (max-width: 350px) {.user-info {margin-left: 5%;}}*/
+@media (max-width: 477px) {.yourHeroSeccion {background: none; padding: 0; margin: 0; border-radius: 0; margin-bottom: 40px}}
+@media (max-width: 351px) {header	{background-position: center;/*padding-right: 100%*/;}}
+@media (max-width: 364px) {.contenedorHeroeAleatorio div img {width: 75px}}
+@media (max-width: 364px) {.contenedorHeroeAleatoriob div img {width: 75px}}
+@media (max-width: 364px) {.contenedorHeroeAleatorioc div img {width: 75px}}
+@media (max-width: 364px) {.contenedorHeroeAleatoriod div img {width: 75px}}
+@media (max-width: 750px)	{.character-page .image-container img {margin-left: 20px}}
+@media (max-width: 794px) {.heroListButton {display: none}}
+@media (max-width: 794px) {.heroList li {display: none}}
+@media (max-width: 794px) {.randomCharacterc{display: none}}
+@media (max-width: 447px) {.lucha{width: 50%}}
+@media (max-width: 600px) {.character-page .one-half {width: 100%; margin-left: 20%}}
+@media (max-width: 534px) {.character-page .one-half {width: 100%; margin-left: 15%}}
+@media (max-width: 500px) {.volver {margin-left: 400px}}
+@media (max-width: 439px) {.lucha {margin-left: 25%}}
+@media (max-width: 485px) {.gridButons {display: flex; justify-content: center}}
+@media (max-width: 400px) {.StatSection {display: none}}
+@media (max-width: 527px) {.character-page .grid {margin-left: -80px}}
+@media (max-width: 395px) {.character-page .grid {margin-left: -80px}}
+@media (max-width: 341px) {.character-page .grid {margin-left: -100px}}
+@media (max-width: 341px) {.content {margin-left: 20%}}
+@media (max-width: 599px) {.character-page .image-container img {margin-top: 0px}}
