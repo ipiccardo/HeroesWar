@@ -432,7 +432,7 @@ $(document).ready(function() {
           if ($('#selectedHero').hasClass('active')) {
             $('#selectedHero').empty();
             $('#selectedHero').removeClass('active');
-            $("#boton-traerHeroe").text("Find Character").css({"margin-left": "65px"})
+            $("#boton-traerHeroe").text("Find Character")
 
           }
         else{
@@ -458,7 +458,7 @@ $(document).ready(function() {
                                               <li>Combat: ${selectedCharacter.powerstats.combat}</li>
                                           </ul>
                                       </div>`).addClass('active')
-                                      $("#boton-traerHeroe").text("Close").css({"margin-left": "90px"})
+                                      $("#boton-traerHeroe").text("Close")
                               let TotalPower = selectedCharacter.powerstats.intelligence + selectedCharacter.powerstats.strength + selectedCharacter.powerstats.speed + selectedCharacter.powerstats.power + selectedCharacter.powerstats.combat + selectedCharacter.powerstats.durability
                               ////GUARDO LA INFORMACIÖN DEL PJ PARA UTILIZARLO MAS ADELANTE EN UNA POSIBLE EVOLUCIÓN DE LA PÁGINA
                               localStorage.setItem(`selectedCharacter`,TotalPower + selectedCharacter.name)

@@ -762,7 +762,6 @@ justify-content: flex-end;
 
 
 
-
 @media (max-width: 889px) {.content {margin-left: 5%; margin-right: 30%}}
 @media (max-width: 490px) {.content {margin-left: 5%; margin-right: 50px}}
 @media (max-width: 1005px){.gridCharacters img {width: 100px;}}
@@ -772,7 +771,7 @@ justify-content: flex-end;
 @media (max-width: 714px) {.gridCharacters div {margin-top: 10%}}
 @media (max-width: 485px) {.gridButons {display:block;}}
 @media (max-width: 492px) {.gridCharacters div {padding: 1px; text-align: center;}}
-@media (max-width: 360PX) {.gridCharacters div {padding: 1px; text-align: center; font-size: 10px; width: 100%; margin-left:0px	}}
+@media (max-width: 360PX) {.gridCharacters div {padding: 1px; text-align: center; font-size: 10px; width: 100%;}}
 @media (max-width: 280PX) {.gridCharacters img {display: none;}}
 @media (max-width: 280PX) {.gridCharacters button {margin-left: 1px; font-size: 10px;}}
 @media (max-width: 280PX) {.randomCharacter  {display: none}}
@@ -815,3 +814,6 @@ justify-content: flex-end;
 @media (max-width: 341px) {.character-page .grid {margin-left: -100px}}
 @media (max-width: 341px) {.content {margin-left: 20%}}
 @media (max-width: 599px) {.character-page .image-container img {margin-top: 0px}}
+@media (max-width: 400px) {.bestStatsli {display: none}}
+@media (max-width: 795px) {.charactersListItem {display: none}}
+@media (max-width: 455px) {.listaStat {font-size: 15px}}
