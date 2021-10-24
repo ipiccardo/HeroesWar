@@ -122,7 +122,7 @@ header nav ul li:hover{
 
 .heroes {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin: 1% 5%;
 	padding: 5% 10%;
@@ -187,7 +187,7 @@ header nav ul li:hover{
 
 .heroesb {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	margin: 1% 5%;
 	padding: 5% 10%;
