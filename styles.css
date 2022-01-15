@@ -506,29 +506,24 @@ border-radius: 50%;
 }
 .character-page .grid{
 	display: flex;
-	margin-left: -20px;
 	flex-wrap: wrap;
 }
 
-.character-page .grid__item{
-	padding-left: 20px;
-}
+
 
 .character-page .one-half{
-	width: 50%;
+	width: 30%;
 }
 
 .character-page .image-container img{
 	max-width: 100%;
 	border-radius: 50%;
 	margin-top: 10px;
-	margin-left: 10px;
+	height: 100vh;
 }
 
 .content {
-	margin-left: -50%;
 	text-align: center;
-	margin-right: 25%;
 }
 
 
@@ -710,7 +705,6 @@ list-style: none;
 }
 
 .character-page .image-container img {
-	margin-left: 100px;
 	border-radius: 0px;
 }
  
@@ -760,10 +754,13 @@ justify-content: flex-end;
 
 }
 
+.character-page .grid {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
 
 
-@media (max-width: 889px) {.content {margin-left: 5%; margin-right: 30%}}
-@media (max-width: 490px) {.content {margin-left: 5%; margin-right: 50px}}
 @media (max-width: 1005px){.gridCharacters img {width: 100px;}}
 @media (max-width: 842px) {.gridCharacters img {width: 100px;}}
 @media (max-width: 714px) {.gridCharacters {display:block;}}
@@ -780,39 +777,30 @@ justify-content: flex-end;
 @media (max-width: 625px) {.heroesb{background-image: none}}
 @media (max-width: 475px)	{.intro{padding: 20px}}
 @media (max-width: 400px) {.intro{margin-left:5px; margin-right:5px; font-size: 10px;/*width:140%*/}}
-/*@media (max-width: 400px) {header{margin-left:10%; margin-right:10%;width:140%}}*/
 @media (max-width: 262px) {.StatSection{display: none}}
 @media (max-width: 492px) {.heroes {border-radius: 0;}}
 @media (max-width: 625px) {.heroes{background-image: none}}
 @media (max-width: 900px) {.irArriba {bottom: 100px; right: 20px; position: fixed;opacity: 0.5;}}
-/*@media (max-width: 400px) {.footer {padding-right: 100%; width: 150%}}
-@media (max-width: 354px) {.footer {padding-right: 100%; width: 180%}}*/
-/*@media (max-width: 999px) {.user-info {margin-left: 35%;}}
-@media (max-width: 700px) {.user-info {margin-left: 30%;}}
-@media (max-width: 500px) {.user-info {margin-left: 20%;}}
-@media (max-width: 420px) {.user-info {margin-left: 10%;}}
-@media (max-width: 350px) {.user-info {margin-left: 5%;}}*/
 @media (max-width: 477px) {.yourHeroSeccion {background: none; padding: 0; margin: 0; border-radius: 0; margin-bottom: 40px}}
 @media (max-width: 351px) {header	{background-position: center;/*padding-right: 100%*/;}}
 @media (max-width: 364px) {.contenedorHeroeAleatorio div img {width: 75px}}
 @media (max-width: 364px) {.contenedorHeroeAleatoriob div img {width: 75px}}
 @media (max-width: 364px) {.contenedorHeroeAleatorioc div img {width: 75px}}
 @media (max-width: 364px) {.contenedorHeroeAleatoriod div img {width: 75px}}
-@media (max-width: 750px)	{.character-page .image-container img {margin-left: 20px}}
+/* @media (max-width: 750px)	{.character-page .image-container img {margin-left: 20px}} */
 @media (max-width: 794px) {.heroListButton {display: none}}
 @media (max-width: 794px) {.heroList li {display: none}}
 @media (max-width: 794px) {.randomCharacterc{display: none}}
 @media (max-width: 447px) {.lucha{width: 50%}}
-@media (max-width: 600px) {.character-page .one-half {width: 100%; margin-left: 20%}}
-@media (max-width: 534px) {.character-page .one-half {width: 100%; margin-left: 15%}}
+/* @media (max-width: 600px) {.character-page .one-half {width: 100%; margin-left: 20%}}
+@media (max-width: 534px) {.character-page .one-half {width: 100%; margin-left: 15%}} */
 @media (max-width: 500px) {.volver {margin-left: 400px}}
 @media (max-width: 439px) {.lucha {margin-left: 25%}}
 @media (max-width: 485px) {.gridButons {display: flex; justify-content: center}}
 @media (max-width: 400px) {.StatSection {display: none}}
-@media (max-width: 527px) {.character-page .grid {margin-left: -80px}}
+/* @media (max-width: 527px) {.character-page .grid {margin-left: -80px}}
 @media (max-width: 395px) {.character-page .grid {margin-left: -80px}}
-@media (max-width: 341px) {.character-page .grid {margin-left: -100px}}
-@media (max-width: 341px) {.content {margin-left: 20%}}
+@media (max-width: 341px) {.character-page .grid {margin-left: -100px}} */
 @media (max-width: 599px) {.character-page .image-container img {margin-top: 0px}}
 @media (max-width: 400px) {.bestStatsli {display: none}}
 @media (max-width: 795px) {.charactersListItem {display: none}}
@@ -823,3 +811,9 @@ justify-content: flex-end;
 @media (max-width: 600px) {.nav li:hover ul {font-size: 10px; padding: 20px; margin-left: -25px}}
 @media (max-width: 600px) {.nav li:hover ul {margin-top: -10px;}
 @media (max-width: 600px) {.nav li:hover ul {margin-top: 0px;}}
+@media (max-width: 600px) {.character-page .grid {flex-direction: column;}}
+@media (max-width: 600px) {.character-page .one-half {width: 100vw; margin-left: auto; margin-right: auto;}}
+@media (max-width: 600px) {.character-page .image-container img {width: 100vh}}
+@media (max-width: 600px) {.text-container {width: 80% !important;}}
+@media (max-width: 400px) {.dcHeroes {margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;}}
+
